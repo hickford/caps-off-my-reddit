@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Caps off my Reddit",
+    "description": "Some scurrilous redditors choose all caps usernames (often vulgar) to attract attention. They don't deserve it.",
+    "version": "0.1.0",
+    "content_scripts": [
+        {
+              "matches": ["*://*.reddit.com/*"],
+              "css": ["capsoff.css"]
+        }
+    ]
+}
